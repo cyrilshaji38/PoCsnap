@@ -15,7 +15,11 @@ PoCSnap is a lightweight, efficient Burp Suite extension built using the modern 
 
 ## Installation & Build Instructions
 
-To clone the workspace and compile the standalone artifact file, run:
+### 📥 Direct Download (Easiest)
+
+Don't want to build from source? Download the latest pre-compiled standalone binary directly from our [Releases Page](https://github.com/YOUR_USERNAME/PoCsnap/releases).
+
+### To clone the workspace and compile the standalone artifact file, run:
 
 ```bash
 git clone https://github.com/cyrilshaji38/PoCsnap.git
