@@ -36,3 +36,39 @@ build/libs/POCSnap-all.jar (or POCSnap.jar).
 2. Under the Installed sub-tab, click Add.
 3. Set the Extension type to Java.
 4. Select the path pointing to your compiled .jar file and hit Next.
+
+## Usage instructions
+
+Using PoCsnap to capture and highlight your security findings takes only a few simple steps.
+
+Step 1: Send HTTP Traffic to the Workspace
+1. Browse through your traffic anywhere in Burp Suite (e.g., Proxy History, Repeater, or Target tabs).
+
+2. Right-click on any interesting HTTP request/response pair.
+
+3. Select Send to PoCsnap from the context menu.
+
+Step 2: Review and Inspect
+1. Click on the PoCsnap tab in Burp Suite's top menu bar.
+
+2. Review the captured data inside the split-screen request and response editors.
+
+Step 3: Draw Highlights and Annotations
+1. Click the Draw Mode: OFF button at the top left. The button will switch to Draw Mode: ON, and your mouse cursor will turn into a crosshair.
+2. Click and drag your mouse over any crucial parameter, payload reflection, or header value to draw a red bounding box around it.
+3. Use the control buttons if you make a mistake:
+
+   Undo: Remove the last box you drew.
+
+   Redo: Bring back a removed box.
+
+   Clear Canvas: Wipe all drawings clean to start over.
+
+Step 4: Export Your PoC Screenshot
+1. Click the Capture PoC Screenshot button.
+
+2. The extension will automatically hide the control buttons and drawing toggles under the hood so your image stays perfectly clean.
+
+3. A file explorer window will open. Choose where you want to save your file (it defaults to saving as poc_screenshot.png) and click Save.
+
+4. Once exported successfully, a confirmation box will appear, and your workspace buttons will return to normal!
