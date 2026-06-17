@@ -18,13 +18,13 @@ PoCSnap is a lightweight, efficient Burp Suite extension built using the modern 
 To clone the workspace and compile the standalone artifact file, run:
 
 ```bash
-git clone [https://github.com/cyrilshaji38/PoCsnap.git](https://github.com/cyrilshaji38/PoCsnap.git)
-cd PoCSnap
+git clone https://github.com/cyrilshaji38/PoCsnap.git
+cd POCSnap
 ./gradlew jar
 ```
 
 The compiled standalone executable binary will be generated inside the directory matching:
-build/libs/PoCSnap-all.jar (or PoCSnap.jar).
+build/libs/POCSnap-all.jar (or POCSnap.jar).
 
 ## Loading into Burp Suite
 
