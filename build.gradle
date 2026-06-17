@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.pocsnap'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // This pulls down the official Burp Montoya API library automatically
+    implementation 'net.portswigger.burp.extensions:montoya-api:2026.4'
+}
+
+// This tells Gradle to bundle everything up into a clean deployment JAR
+jar {
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
