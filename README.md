@@ -64,6 +64,9 @@ Step 3: Draw Highlights and Annotations
 
    Clear Canvas: Wipe all drawings clean to start over.
 
+<img width="959" height="562" alt="PoCsnap_demo" src="https://github.com/user-attachments/assets/8a8139c7-40db-4d8f-8fc8-f31370b95e4e" />
+
+
 Step 4: Export Your PoC Screenshot
 1. Click the Capture PoC Screenshot button.
 
@@ -72,3 +75,6 @@ Step 4: Export Your PoC Screenshot
 3. A file explorer window will open. Choose where you want to save your file (it defaults to saving as poc_screenshot.png) and click Save.
 
 4. Once exported successfully, a confirmation box will appear, and your workspace buttons will return to normal!
+
+<img width="1280" height="649" alt="poc_screenshot" src="https://github.com/user-attachments/assets/5244b110-3192-4985-9b3d-1d208b34346b" />
+
