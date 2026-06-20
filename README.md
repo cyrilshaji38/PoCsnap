@@ -63,7 +63,8 @@ Step 3: Apply Highlights and Privacy Masks
    + Redo: Restore a removed modification layer.
    + Clear Canvas: Wipe all annotations clean to start over fresh.
 
-<img width="959" height="562" alt="PoCsnap_demo" src="https://github.com/user-attachments/assets/8a8139c7-40db-4d8f-8fc8-f31370b95e4e" />
+
+<img width="959" height="563" alt="PoCsnap_demo_v1 1" src="https://github.com/user-attachments/assets/e332206d-5f04-4e32-a6c8-f42582f48ca4" />
 
 
 Step 4: Export Your PoC Screenshot
@@ -72,5 +73,5 @@ Step 4: Export Your PoC Screenshot
 3. A file explorer window will open. Choose where you want to save your file (it defaults to saving as poc_screenshot.png) and click Save.
 4. Once exported successfully, a confirmation box will appear, and your workspace buttons will return to normal!
 
-<img width="1280" height="649" alt="poc_screenshot" src="https://github.com/user-attachments/assets/5244b110-3192-4985-9b3d-1d208b34346b" />
 
+<img width="1280" height="649" alt="poc_screenshot" src="https://github.com/user-attachments/assets/7998e596-5de7-4138-86ca-300fb1ca8cdf" />
